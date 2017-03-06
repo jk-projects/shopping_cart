@@ -1,0 +1,24 @@
+/*body {
+  width: 100%;
+}*/
+
+#style-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.style-image {
+  width: 320px;
+}
+
+.list-item {
+  display: inline-block;
+  border: 1px solid white;
+}
+
+a {
+  text-decoration: none;
+}

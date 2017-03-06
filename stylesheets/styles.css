@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #FFFFFF;;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -38,18 +38,23 @@ img {
 #main {
   background-image: url("cards_photo_2.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 700px;
+  background-size: cover;
+  height: 500px;
 }
 
 #main-button {
   border: none;
-  color: white;
+  color: #000000;
+  background-color: #FFFFFF;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 12px;
+  margin-left: 75%;
+  margin-top: 20%;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
 }
 
 .clearfix:after {

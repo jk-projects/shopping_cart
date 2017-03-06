@@ -1,3 +1,32 @@
 body {
   background-color: lightblue;
 }
+
+header {
+  background-color: white;
+}
+
+ul.navigation {
+  list-style: none;
+}
+
+li.navlink {
+  display: inline;
+}
+
+/*logo {
+ float: left;
+}*/
+
+nav {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  font-size: 0;
+  clear:both;
+  height: 0;
+}

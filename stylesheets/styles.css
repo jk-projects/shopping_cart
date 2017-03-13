@@ -1,6 +1,7 @@
 body {
   background-color: #FFFFFF;;
   font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
 
 header {
@@ -40,10 +41,15 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+
 }
 
 #main-button {
+  position: absolute;
+  left: 75%;
+  top: 50%;
   border: none;
+  cursor: pointer;
   color: #000000;
   background-color: #FFFFFF;
   padding: 15px 32px;
@@ -51,10 +57,15 @@ img {
   text-decoration: none;
   display: inline-block;
   border-radius: 12px;
-  margin-left: 75%;
-  margin-top: 20%;
+/*  margin-left: 75%;
+  margin-top: 20%;*/
   font-size: 1.2em;
   font-family: "Open Sans", sans-serif;
+}
+
+#contact-footer {
+  position: absolute;
+  left: 50%;
 }
 
 .clearfix:after {

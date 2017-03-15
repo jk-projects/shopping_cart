@@ -41,7 +41,17 @@ function formatItem() {
     item.setAttribute('class', 'list-item');
     item.innerHTML = product.src + '<h3>' + product.name + '</h3>' + '<h4>' + product.price + '</h4>';
     list.appendChild(item);
-  }
+    let button = document.createElement('button');
+    button.setAttribute('class', 'cart-button');
+    button.innerHTML = 'ADD TO CART';
+    button.addEventListener('mouseover', () => {
+    button.style.opacity = '0.5';
+    })
+    button.addEventListener('mouseout', () => {
+    button.style.opacity = '1';
+    })
+    item.appendChild(button);
+    }
 }
 formatItem();
 

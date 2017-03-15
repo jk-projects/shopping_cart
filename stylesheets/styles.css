@@ -8,6 +8,7 @@ body {
   background-color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  font-size: 14px;
 }
 
 header {
@@ -105,4 +106,19 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.cart-button {
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 1em 6em;
+  position: relative;
+  font-size: 14px;
+  margin: 1em;
+}
+
+.cart-button:hover {
+    background-color: black;
+    color: white;
 }
